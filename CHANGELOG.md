@@ -1,3 +1,10 @@
+# [17.0.0]() (2023-11-10)
+
+
+BREAKING CHANGES
+
+* Angular version updated to v17
+
 # [14.0.0](https://github.com/nicky-lenaers/ngx-scroll-to/compare/13.0.0...14.0.0) (2022-10-24)
 
 

@@ -55,7 +55,7 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-angular:browser",
+          "builder": "@angular-devkit/build-angular:browser-esbuild",
           "options": {
             "outputPath": "dist/ngx-scroll-to-demo",
             "index": "projects/ngx-scroll-to-demo/src/index.html",
@@ -67,9 +67,7 @@
               "projects/ngx-scroll-to-demo/src/favicon.ico",
               "projects/ngx-scroll-to-demo/src/assets"
             ],
-            "styles": [
-              "projects/ngx-scroll-to-demo/src/styles.scss"
-            ],
+            "styles": ["projects/ngx-scroll-to-demo/src/styles.scss"],
             "scripts": []
           },
           "configurations": {
@@ -135,9 +133,7 @@
               "projects/ngx-scroll-to-demo/src/favicon.ico",
               "projects/ngx-scroll-to-demo/src/assets"
             ],
-            "styles": [
-              "projects/ngx-scroll-to-demo/src/styles.scss"
-            ],
+            "styles": ["projects/ngx-scroll-to-demo/src/styles.scss"],
             "scripts": []
           }
         },
@@ -167,8 +163,6 @@
   },
   "cli": {
     "analytics": "90748fe0-c2f3-428a-a161-bde380a9383d",
-    "schematicCollections": [
-      "@angular-eslint/schematics"
-    ]
+    "schematicCollections": ["@angular-eslint/schematics"]
   }
 }
